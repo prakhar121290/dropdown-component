@@ -6,8 +6,7 @@
   "author": "Prakhar Mathur",
   "license": "MIT",
   "scripts": {
-    "start": "npm-run-all --parallel open:src",
-    "open:src": "babel-node tools/srcServer.js",
+    "start": "babel-node tools/srcServer.js",
     "build": "babel ./src --out-dir ./lib --copy-files"
   },
   "dependencies": {
